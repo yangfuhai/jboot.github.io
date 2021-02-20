@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>面向切面编程 | Jboot 官方网站</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/logo.png">
+    <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?d6b9b94a6fafaa41c63920e1af80bcaf";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    <meta name="description" content="Jboot 一个开源的分布式、商业级微服务框架。">
+    <link rel="preload" href="/assets/css/0.styles.8250e436.css" as="style"><link rel="preload" href="/assets/js/app.ee36bd27.js" as="script"><link rel="preload" href="/assets/js/3.819d5af4.js" as="script"><link rel="preload" href="/assets/js/1.c9eae230.js" as="script"><link rel="preload" href="/assets/js/19.14777e0d.js" as="script"><link rel="prefetch" href="/assets/js/10.9fdeaf9e.js"><link rel="prefetch" href="/assets/js/11.3b337c42.js"><link rel="prefetch" href="/assets/js/12.eca6fa3b.js"><link rel="prefetch" href="/assets/js/13.c46469f8.js"><link rel="prefetch" href="/assets/js/14.a17cc2a0.js"><link rel="prefetch" href="/assets/js/15.c8a21dfb.js"><link rel="prefetch" href="/assets/js/16.b76e2e67.js"><link rel="prefetch" href="/assets/js/17.b0bea581.js"><link rel="prefetch" href="/assets/js/18.5d2630ea.js"><link rel="prefetch" href="/assets/js/20.84b1fb2b.js"><link rel="prefetch" href="/assets/js/21.00951099.js"><link rel="prefetch" href="/assets/js/22.f9f71d71.js"><link rel="prefetch" href="/assets/js/23.f7cdf5b2.js"><link rel="prefetch" href="/assets/js/24.5baa9f6b.js"><link rel="prefetch" href="/assets/js/25.a27498fd.js"><link rel="prefetch" href="/assets/js/26.4e2c0f85.js"><link rel="prefetch" href="/assets/js/27.dd74ce3c.js"><link rel="prefetch" href="/assets/js/28.163cfff0.js"><link rel="prefetch" href="/assets/js/29.c34ec3e1.js"><link rel="prefetch" href="/assets/js/30.b0dfd0ce.js"><link rel="prefetch" href="/assets/js/31.86980390.js"><link rel="prefetch" href="/assets/js/32.ad64206c.js"><link rel="prefetch" href="/assets/js/33.47a0ba43.js"><link rel="prefetch" href="/assets/js/34.9600f3be.js"><link rel="prefetch" href="/assets/js/35.b81f42b1.js"><link rel="prefetch" href="/assets/js/36.41b1a476.js"><link rel="prefetch" href="/assets/js/37.3426c20a.js"><link rel="prefetch" href="/assets/js/38.a3db6961.js"><link rel="prefetch" href="/assets/js/39.aeae0816.js"><link rel="prefetch" href="/assets/js/4.b10ba5e2.js"><link rel="prefetch" href="/assets/js/40.aa06bf9d.js"><link rel="prefetch" href="/assets/js/41.92be0a74.js"><link rel="prefetch" href="/assets/js/42.af8575e1.js"><link rel="prefetch" href="/assets/js/43.2843b61a.js"><link rel="prefetch" href="/assets/js/44.c818cbcc.js"><link rel="prefetch" href="/assets/js/45.add68e90.js"><link rel="prefetch" href="/assets/js/46.4c911f1a.js"><link rel="prefetch" href="/assets/js/47.86742f93.js"><link rel="prefetch" href="/assets/js/48.aa09f405.js"><link rel="prefetch" href="/assets/js/49.4ed126ba.js"><link rel="prefetch" href="/assets/js/5.6310fac8.js"><link rel="prefetch" href="/assets/js/50.cd4e463a.js"><link rel="prefetch" href="/assets/js/51.29843e98.js"><link rel="prefetch" href="/assets/js/52.ab6bd6ba.js"><link rel="prefetch" href="/assets/js/53.70fa4711.js"><link rel="prefetch" href="/assets/js/54.42500cdc.js"><link rel="prefetch" href="/assets/js/55.ae91df04.js"><link rel="prefetch" href="/assets/js/56.b28edcc9.js"><link rel="prefetch" href="/assets/js/57.23233c76.js"><link rel="prefetch" href="/assets/js/58.f487ccdf.js"><link rel="prefetch" href="/assets/js/59.330f0c81.js"><link rel="prefetch" href="/assets/js/6.f7cf841b.js"><link rel="prefetch" href="/assets/js/60.46653a7d.js"><link rel="prefetch" href="/assets/js/61.5270bd08.js"><link rel="prefetch" href="/assets/js/62.b1cb364c.js"><link rel="prefetch" href="/assets/js/63.7f1b5d78.js"><link rel="prefetch" href="/assets/js/7.0729d6e9.js"><link rel="prefetch" href="/assets/js/8.4713baad.js"><link rel="prefetch" href="/assets/js/9.43c10d5b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8250e436.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-dad8a512><div data-v-dad8a512><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-dad8a512 data-v-dad8a512><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-dad8a512 data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>Jboot 官方网站</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>jboot</span>
+            
+          <!---->
+          2021
+        </a></span></div></div> <div class="hide" data-v-dad8a512><header class="navbar" data-v-dad8a512><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Jboot 官方网站</span></a> <div class="links"><!----> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  首页
+</a></div><div class="nav-item"><a href="/docs/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  Jboot文档
+</a></div><div class="nav-item"><a href="/jbootadmin/" class="nav-link"><i class="iconfont undefined"></i>
+  JbootAdmin
+</a></div><div class="nav-item"><a href="https://gitee.com/JbootProjects/jboot/issues" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  提问
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://www.jpress.io" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  JPress
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      源码下载
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://gitee.com/JbootProjects/jboot" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  Gitee
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/yangfuhai/jboot" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-dad8a512></div> <aside class="sidebar" data-v-dad8a512><div class="personal-info-wrapper" data-v-ca798c94 data-v-dad8a512><!----> <h3 class="name" data-v-ca798c94>
+    jboot
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>0</h3> <h6 data-v-ca798c94>Article</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>0</h3> <h6 data-v-ca798c94>Tag</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont undefined"></i>
+  首页
+</a></div><div class="nav-item"><a href="/docs/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  Jboot文档
+</a></div><div class="nav-item"><a href="/jbootadmin/" class="nav-link"><i class="iconfont undefined"></i>
+  JbootAdmin
+</a></div><div class="nav-item"><a href="https://gitee.com/JbootProjects/jboot/issues" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  提问
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="http://www.jpress.io" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  JPress
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      源码下载
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://gitee.com/JbootProjects/jboot" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  Gitee
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/yangfuhai/jboot" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>认识 Jboot</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/" aria-current="page" class="sidebar-link">Jboot 简介</a></li><li><a href="/docs/start.html" class="sidebar-link">快速开始</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>开发文档</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/install.html" class="sidebar-link">安装</a></li><li><a href="/docs/config.html" class="sidebar-link">配置</a></li><li><a href="/docs/jfinalConfig.html" class="sidebar-link">JFinalConfig</a></li><li><a href="/docs/mvc.html" class="sidebar-link">MVC</a></li><li><a href="/docs/validator.html" class="sidebar-link">Validator</a></li><li><a href="/docs/websocket.html" class="sidebar-link">WebSocket</a></li><li><a href="/docs/json.html" class="sidebar-link">Json</a></li><li><a href="/docs/jwt.html" class="sidebar-link">Jwt</a></li><li><a href="/docs/swagger.html" class="sidebar-link">Swagger</a></li><li><a href="/docs/aop.html" aria-current="page" class="active sidebar-link">AOP</a></li><li><a href="/docs/db.html" class="sidebar-link">数据库</a></li><li><a href="/docs/cache.html" class="sidebar-link">缓存</a></li><li><a href="/docs/redis.html" class="sidebar-link">Redis</a></li><li><a href="/docs/rpc.html" class="sidebar-link">RPC 调用</a></li><li><a href="/docs/mq.html" class="sidebar-link">MQ 消息队列</a></li><li><a href="/docs/gateway.html" class="sidebar-link">Gateway 网关</a></li><li><a href="/docs/schedule.html" class="sidebar-link">任务调度</a></li><li><a href="/docs/limit.html" class="sidebar-link">Jboot限流</a></li><li><a href="/docs/sentinel.html" class="sidebar-link">Sentinel限流</a></li><li><a href="/docs/attachment.html" class="sidebar-link">分布式附件管理</a></li><li><a href="/docs/metrics.html" class="sidebar-link">监控</a></li><li><a href="/docs/event.html" class="sidebar-link">事件机制</a></li><li><a href="/docs/serialize.html" class="sidebar-link">序列化</a></li><li><a href="/docs/spi.html" class="sidebar-link">SPI扩展</a></li><li><a href="/docs/codegen.html" class="sidebar-link">代码生成器</a></li><li><a href="/docs/build.html" class="sidebar-link">项目构建</a></li><li><a href="/docs/deploy.html" class="sidebar-link">项目部署</a></li><li><a href="/docs/docker.html" class="sidebar-link">Docker</a></li><li><a href="/docs/hotload.html" class="sidebar-link">热加载</a></li><li><a href="/docs/swagger.html" class="sidebar-link">Swagger</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>性能</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/benchmark.html" class="sidebar-link">性能测试</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e></h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>jboot</span>
+            
+          <!---->
+          2021
+        </a></span></div></div> <div data-v-dad8a512><main class="page"><div class="page-title" style="display:none;"><h1>面向切面编程</h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>jboot</span></i> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default" style="display:none;"><h1 id="面向切面编程"><a href="#面向切面编程" class="header-anchor">#</a> 面向切面编程</h1> <h2 id="目录"><a href="#目录" class="header-anchor">#</a> 目录</h2> <ul><li>JFinal AOP</li> <li>JBoot AOP</li> <li>@Inject</li> <li>@RPCInject</li> <li>@Bean</li> <li>@BeanExclude</li> <li>@Configuration</li> <li>@ConfigValue</li> <li>@StaticConstruct</li> <li>@PostConstruct</li> <li>InterceptorBuilder</li></ul> <h2 id="jfinal-aop"><a href="#jfinal-aop" class="header-anchor">#</a> JFinal AOP</h2> <p>参考文档：https://jfinal.com/doc/4-6</p> <h2 id="jboot-aop"><a href="#jboot-aop" class="header-anchor">#</a> JBoot AOP</h2> <p>JBoot AOP 在 JFinal AOP 的基础上，新增了我们在分布式下常用的功能，同时借鉴了 Spring AOP 的一些特征，对 JFinal AOP 做了增强，但是又没有 Spring AOP 体系的复杂度。</p> <h2 id="inject"><a href="#inject" class="header-anchor">#</a> @Inject</h2> <p>我们可以通过 @Inject 对任何 Bean 的属性进行注入，例如 Controller</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyController</span> <span class="token keyword">extends</span> <span class="token class-name">Controller</span><span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token keyword">private</span> <span class="token class-name">UserService</span> userService<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">renderJson</span><span class="token punctuation">(</span>userService<span class="token punctuation">.</span><span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在以上的例子中，在默认情况下，JFinal AOP 会去实例化一个 UserService 实例，并注入到 MyController 的 userService 中，因此需要注意的是：UserService 必须是一个可以被实例化的类，<strong>不能是</strong>抽象类或者接口（Interface）。</p> <p>如果说，UserService 是一个接口，它有实现类比如 <code>UserServiceImpl.class</code>，JFinal 提供了另一种方案，代码如下：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyController</span> <span class="token keyword">extends</span> <span class="token class-name">Controller</span><span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Inject</span><span class="token punctuation">(</span><span class="token class-name">UserServiceImpl</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">UserService</span> userService<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">renderJson</span><span class="token punctuation">(</span>userService<span class="token punctuation">.</span><span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="bean"><a href="#bean" class="header-anchor">#</a> @Bean</h2> <p>在以上的例子中，我们认为 <code>@Inject(UserServiceImpl.class)</code> 这可能不是最好的方案，因此，JBoot 提供了可以通过注解 <code>@Bean</code> 给 <code>UserServiceImpl.class</code> 添加在类上，这样 Jboot 在启动的时候，会自动扫描到 <code>UserServiceImpl.class</code> ，并通过 JbootAopFactory 把 UserService 和 UserServiceImpl 添加上关联关系。</p> <p>代码如下：</p> <p>Controller：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyController</span> <span class="token keyword">extends</span> <span class="token class-name">Controller</span><span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token keyword">private</span> <span class="token class-name">UserService</span> userService<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">renderJson</span><span class="token punctuation">(</span>userService<span class="token punctuation">.</span><span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>UserService：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">UserService</span><span class="token punctuation">{</span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>UserServiceImpl：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Bean</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">UserServiceImpl</span> <span class="token keyword">implements</span> <span class="token class-name">UserService</span><span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>当一个接口有多个实现类，或者当在系统中存在多个实例对象，比如有两份 Cache 对象，一份可能是 Redis Server1，一份可能是 Redis Server2，或者有两份数据源 DataSource 等，在这种情况下，我们注入的时候就需要确定注入那个实例。</p> <p>这时候，我们就需要用到 <code>@Bean(name= &quot;myName&quot;)</code> 去给不同的子类去添加注释。</p> <p>例如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/helloworld&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyController</span> <span class="token keyword">extends</span> <span class="token class-name">Controller</span><span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">&quot;userServieImpl1&quot;</span><span class="token punctuation">)</span> <span class="token comment">//注入名称为 userServieImpl1 的实例</span>
+    <span class="token keyword">private</span> <span class="token class-name">UserService</span> userService1<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">&quot;userServieImpl2&quot;</span><span class="token punctuation">)</span> <span class="token comment">//注入名称为 userServieImpl2 的实例</span>
+    <span class="token keyword">private</span> <span class="token class-name">UserService</span> userService2<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">renderJson</span><span class="token punctuation">(</span>userService<span class="token punctuation">.</span><span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>UserService：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">UserService</span><span class="token punctuation">{</span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>UserServiceImpl1：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">&quot;userServiceImpl1&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">UserServiceImpl1</span> <span class="token keyword">implements</span> <span class="token class-name">UserService</span><span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>UserServiceImpl2：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">&quot;userServiceImpl2&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">UserServiceImpl2</span> <span class="token keyword">implements</span> <span class="token class-name">UserService</span><span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>这种情况，只是针对一个接口有多个实现类的情况，那么，如果是一个接口只有一个实现类，但是有多个实例，如何进行注入呢？</p> <p>参考 @Configuration 。</p> <h2 id="beanexclude"><a href="#beanexclude" class="header-anchor">#</a> @BeanExclude</h2> <p>当我们使用 <code>@Bean</code> 给某个类添加上注解之后，这个类会做好其实现的所有接口，但是，很多时候我们往往不需要这样做，比如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Bean</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">UserServiceImpl</span> <span class="token keyword">implements</span> <span class="token class-name">UserService</span><span class="token punctuation">,</span> 
+<span class="token class-name">OtherInterface1</span><span class="token punctuation">,</span><span class="token class-name">OtherInterface2</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在某些场景下，我们可能只希望 UserServiceImpl 和 UserService 做好映射关系，此时，<code>@BeanExclude</code> 就派上用场了。</p> <p>如下代码排除了 UserServiceImpl 和 OtherInterface1,OtherInterface2 的映射关系。</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Bean</span>
+<span class="token annotation punctuation">@BeanExclude</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">OtherInterface1</span><span class="token punctuation">.</span>cass<span class="token punctuation">,</span><span class="token class-name">OtherInterface2</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">UserServiceImpl</span> <span class="token keyword">implements</span> <span class="token class-name">UserService</span><span class="token punctuation">,</span> 
+<span class="token class-name">OtherInterface1</span><span class="token punctuation">,</span><span class="token class-name">OtherInterface2</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">findAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="configuration"><a href="#configuration" class="header-anchor">#</a> @Configuration</h2> <p>在 Jboot 中的 <code>@Configuration</code> 和 Spring 体系的 <code>@Configuration</code> 功能类似。</p> <p>我们可以在一个普通类中添加注解 <code>@Configuration</code> , 然后在其方法通过 <code>@Bean</code> 去对方法进行添加注解。</p> <p>例如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Configuration</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AppConfiguration</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">&quot;myCommentServiceFromConfiguration&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token class-name">CommentService</span> <span class="token function">myCommentService1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">CommentService</span> commentService <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">CommentServiceImpl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> commentService<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@Bean</span>
+    <span class="token keyword">public</span> <span class="token class-name">CommentService</span> <span class="token function">myCommentService2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">CommentService</span> commentService <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">CommentServiceImpl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> commentService<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>这样，在一个 Jboot 应用中，就会存在两份 <code>CommentService</code> 他们的名称分别为：myCommentServiceFromConfiguration 和 myCommentService2（当只用了注解 @Bean 但是未添加 name 参数时，name 的值为方法的名称）</p> <p>这样，我们就可以在 Controller 里，通过 <code>@Inject</code> 配合 <code>@Bean(name = ... )</code> 进行注入，例如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/aopcache&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AopCacheController</span> <span class="token keyword">extends</span> <span class="token class-name">JbootController</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">&quot;myCommentService2&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">CommentService</span> commentService<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token annotation punctuation">@Bean</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">&quot;myCommentServiceFromConfiguration&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">CommentService</span> myCommentService<span class="token punctuation">;</span>
+
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">index</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;commentService:&quot;</span><span class="token operator">+</span>commentService<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;myCommentService:&quot;</span><span class="token operator">+</span>myCommentService<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="configvalue"><a href="#configvalue" class="header-anchor">#</a> @ConfigValue</h2> <p>在 AOP 注入中，可能很多时候我们需要注入的只是一个配置内容，而非一个对象实例，此时，我们就可以使用注解 <code>@ConfigValue</code>，例如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/aop&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AopController</span> <span class="token keyword">extends</span> <span class="token class-name">JbootController</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@ConfigValue</span><span class="token punctuation">(</span><span class="token string">&quot;undertow.host&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> host<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@ConfigValue</span><span class="token punctuation">(</span><span class="token string">&quot;undertow.port&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token keyword">int</span> port<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@ConfigValue</span><span class="token punctuation">(</span>value <span class="token operator">=</span> <span class="token string">&quot;undertow.xxx&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token keyword">int</span> xxx<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>   
+</code></pre></div><p>此时，配置文件 jboot.properties (包括分布式配置中心) 里配置的 undertow.host 的值自动赋值给 host 属性。其他属性同理。</p> <h2 id="staticconstruct"><a href="#staticconstruct" class="header-anchor">#</a> @StaticConstruct</h2> <p>静态的构造方法。</p> <p>在某些类中，这个类的创建方式并不是通过 new 的方式进行创建的，或者可能构造函数是私有的，或者这个类可能是一个单例示例的类，比如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JbootManager</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> me <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> <span class="token function">me</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> me<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>我们在其他类注入 JbootManager 的时候，并不希望通过 new JbootManager() 的方式进行创建注入，还是希望通过其方法 <code>me()</code> 进行获取。</p> <p>此时，我们就可以给 JbootManager 类添加 <code>@StaticConstruct</code> 注解，例如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@StaticConstruct</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JbootManager</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> me <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> <span class="token function">me</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> me<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>但如果 JbootManager 有多个返回自己对象的静态方法，我们就可以使用  <code>@StaticConstruct</code> 的 value 参数来指定。</p> <p>例如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@StaticConstruct</span><span class="token punctuation">(</span><span class="token string">&quot;me&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JbootManager</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> me <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> <span class="token function">me</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> me<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">JbootManager</span> <span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token class-name">JbootManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//do sth</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="postconstruct"><a href="#postconstruct" class="header-anchor">#</a> @PostConstruct</h2> <p><code>@PostConstruct</code> 是 Java 自带的注解，用于在对 Java 对象初始化、并进行注入成功之后，进行初始化的工作。</p> <p>比如：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Bean</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">YourServiceImpl</span> <span class="token keyword">implements</span> <span class="token class-name">YourService</span><span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token keyword">private</span> <span class="token class-name">OtherService1</span> otherService1<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@Inject</span>
+    <span class="token keyword">private</span> <span class="token class-name">OtherService2</span> otherService2<span class="token punctuation">;</span>
+    
+    
+    <span class="token keyword">private</span> <span class="token class-name">Service3</span> service3<span class="token punctuation">;</span>
+    
+    <span class="token keyword">public</span> <span class="token class-name">YourServiceImpl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">// 构造方法运行的时候， otherService1 和 otherService2 都为 null，</span>
+        <span class="token comment">// 因为还没有开始注入</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@PostConstruct</span>
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">initService3</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 构造函数执行完毕后，Jboot 会自动立即执行此方法</span>
+        <span class="token comment">// 此时 otherService1 和 otherService2 已经有值了</span>
+        
+        otherService1<span class="token punctuation">.</span><span class="token function">doSth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        otherService2<span class="token punctuation">.</span><span class="token function">doSth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        
+        service3 <span class="token operator">=</span> <span class="token function">createService3</span><span class="token punctuation">(</span>otherService1<span class="token punctuation">,</span>otherService2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        service3<span class="token punctuation">.</span><span class="token function">xxx</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>此时，我们就可以通过如下方法使用 YourService 了</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token class-name">YourService</span> service <span class="token operator">=</span> <span class="token class-name">Aop</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token class-name">YourService</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+service<span class="token punctuation">.</span><span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><code>@PostConstruct</code> 的特点：</p> <ul><li>必须是 <code>非静态</code> 方法</li> <li>必须是 <code>无参数</code> 方法</li> <li>在同一个类中，只能存在一个方法被 <code>@PostConstruct</code> 修饰。</li> <li>如果子类和父类都存在 <code>@PostConstruct</code> 修饰的方法，子类优先执行，父类后执行。</li></ul> <h2 id="interceptorbuilder"><a href="#interceptorbuilder" class="header-anchor">#</a> InterceptorBuilder</h2> <p>InterceptorBuilder : 拦截器构建器。他能够根据当前 Controller、Service 等的方法信息（比如方法注解、方法名称、方法参数），来对当前方法动态 添加 或者 删除 拦截器，
+在之前 JFinal 的体系里，给某个方法添加拦截器只能通过 @Before({MyInterceptor.class}) 或者 configInterceptor() 配置方法里添加全局拦截器。</p> <p>这样带来一个不够优雅的地方是，如果我们想给某个方法 ”增强“，只能以添加全局拦截器的方式来做，这样所有方法都会被该拦截器拦截，
+然后再通过其判断进行 ”放行“ 。这样就带来了性能效率的下降，因为在我们整个系统中，有非常多的方法是没有必要走拦截器的。</p> <p>有了 InterceptorBuilder 之后，我们可以通过 InterceptBuilder 给某个方法来构建其特定的拦截器，而不是全局拦截器，
+这样，极大的提高了性能，同时减少了不必要的调用堆栈。</p> <p>如何使用 InterceptorBuilder 呢？如下代码：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">YourAppListener</span> <span class="token keyword">extends</span> <span class="token class-name">JbootAppListenerBase</span><span class="token punctuation">{</span>
+
+        <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">onInit</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">InterceptorBuilderManager</span><span class="token punctuation">.</span><span class="token function">me</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addInterceptorBuilder</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">MyInterceptorBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>或者 <code>CacheInterceptorBuilder</code> 添加主键 <code>@AutoLoad</code></p> <blockquote><p>注意：使用注解 <code>@Autoload</code> 之后，就不要通过 <code>InterceptorBuilderManager</code> 来添加了，<code>@Autoload</code> 的作用就是在其启动的时候自动添加进去。</p></blockquote> <p>比如 <code>@Cacheable</code> 的拦截器构建 CacheInterceptorBuilder 代码如下：</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@AutoLoad</span> <span class="token comment">//自动把当前的 CacheInterceptorBuilder 添加到 InterceptorBuilderManager 里去。</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CacheInterceptorBuilder</span> <span class="token keyword">implements</span> <span class="token class-name">InterceptorBuilder</span> <span class="token punctuation">{</span>
+
+    <span class="token comment">/**
+     * 开始都某个方法进行构建
+     * @param serviceClass 方法所在的类
+     * @param method 方法信息
+     * @param interceptors 该方法已经有的拦截器
+     */</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">build</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> serviceClass<span class="token punctuation">,</span> <span class="token class-name">Method</span> method<span class="token punctuation">,</span> <span class="token class-name">Interceptors</span> interceptors<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       
+        <span class="token class-name">Cacheable</span> cacheable <span class="token operator">=</span> method<span class="token punctuation">.</span><span class="token function">getAnnotation</span><span class="token punctuation">(</span><span class="token class-name">Cacheable</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>cacheable <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            interceptors<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">CacheableInterceptor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            
+            <span class="token comment">// 或者使用如下的方式添加，这样，所有的方法都会被同一个 &quot;实例&quot; 拦截</span>
+            <span class="token comment">// interceptors.add(CacheableInterceptor.class)</span>
+        <span class="token punctuation">}</span>
+        
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在 <code>build()</code> 方法中的 Interceptors，我们不仅仅可以通过 Interceptors 来添加拦截器，我们还可以通过其来删除拦截器、或者修改拦截器的顺序等等操作。</p></div> <footer class="page-edit" style="display:none;"><div class="edit-link"><a href="https://github.com/yangfuhai/jboot/edit/master/doc/docs/aop.md" target="_blank" rel="noopener noreferrer">编辑此页面</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">更新时间: </span> <span class="time">2/20/2021, 5:40:47 PM</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.ee36bd27.js" defer></script><script src="/assets/js/3.819d5af4.js" defer></script><script src="/assets/js/1.c9eae230.js" defer></script><script src="/assets/js/19.14777e0d.js" defer></script>
+  </body>
+</html>
